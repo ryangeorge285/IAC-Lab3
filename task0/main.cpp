@@ -25,6 +25,7 @@ TEST_F(TestAdd, AddTest)
 
 TEST_F(TestAdd, AddTest2)
 {
+    EXPECT_EQ(add(2, 4), 6);
     // Create a test case here. Maybe fail this to see what happens?
 }
 
